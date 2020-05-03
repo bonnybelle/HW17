@@ -14,5 +14,6 @@ class MyIterator:
 
 collection = [i for i in range(10)]
 for i in MyIterator(collection):
-    print(i)
+        for j in i:
+        print(j)
     break
