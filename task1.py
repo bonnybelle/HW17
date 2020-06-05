@@ -13,7 +13,7 @@ class MyIterator:
             a = [i for i in range(self.args[0])]
             return a
         elif len(self.args) == 2:
-            a = [i for i in range(self.args[0], self.args[1] - 1)]
+            a = [i for i in range(self.args[0], self.args[1])]
             return a
         elif len(self.args) == 3:
             a = [i for i in range(self.args[0] + 1, self.args[1] + 1)][::self.args[2]]
