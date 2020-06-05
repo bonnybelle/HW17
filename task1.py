@@ -29,7 +29,8 @@ m4 = MyIterator(-10, 4, 10, -2)
 for i in m1:
     print(i)
     break
-
+    
+print('my iterator: ')
 for i in m2:
     print(i)
     break
@@ -44,7 +45,7 @@ for i in m4:
     break
 '''
 # ---------------------------------
-
+print('range: ')
 print(list(range(10)))
 print(list(range(-10, 10)))
 print(list(range(10, -10, -2)))
